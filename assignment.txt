@@ -1,0 +1,19 @@
+//Create GitHub repo
+
+//Create local repo
+mkdir basic_repo
+cd basic_repo
+git init
+git remote add origin https://github.com/Scott-Olson/basic_repo.git
+
+//create some files
+touch sample.txt style.css about.txt
+
+//add commit push
+git add .
+git commit -m "starting files"
+git push -u origin master
+
+//local changes
+git add . 
+git commit -m "local changes"
